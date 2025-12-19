@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Car View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="car-section">
+        <div class="section-header">
+            <h1 class="section-title">SELECT YOUR CAR</h1>
+            <p class="section-subtitle">Luxury Car Fleet</p>
+        </div>
+
+        <div class="car-viewer-wrapper">
+            <div class="car-viewer" id="carViewer">
+                <img id="carImage" src="images/0001.jpg" alt="Luxury Car 360° View">
+                <div class="loading-overlay" id="loadingOverlay">
+                    <div class="loader"></div>
+                    <div class="loading-text">LOADING EXPERIENCE...</div>
+                </div>
+            </div>
+            <div class="interaction-hint">
+                <span class="desktop-hint">Drag to rotate • Explore every angle</span>
+                <span class="mobile-hint" style="display:none">Swipe to rotate • Explore every angle</span>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
