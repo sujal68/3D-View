@@ -152,7 +152,12 @@ body {
     }
 
     .car-viewer {
+        width: 100% !important;
         border-radius: 15px;
         aspect-ratio: 4 / 3;
+    }
+
+    .car-viewer-wrapper {
+        width: 100% !important;
     }
 }
